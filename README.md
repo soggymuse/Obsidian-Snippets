@@ -70,6 +70,20 @@ If six highlighter colours aren't enough, you can add more!
     color: #7D3B56; }
 ```
 
+## Labelled Highlighters on Hover
+
+This is the same as my Labelled Highlighters, but instead of having a permanent label, you can only see the highlighter's category _when you hover over it_.
+
+<img width="710" alt="Screenshot 2022-11-05 at 14 22 29" src="https://user-images.githubusercontent.com/115729056/200124571-e9d07207-4f9e-4ecf-a250-7b9bddea1405.png">
+
+_before hovering over the highlighted text_
+
+Refer to the instructions for **Labelled Highlighters** to use this snippet, but download `highlighters-hover.css` instead of `highlighters.css`. The rest is basically the same.
+
+<img width="712" alt="Screenshot 2022-11-05 at 14 22 41" src="https://user-images.githubusercontent.com/115729056/200124577-ea9fcbbd-d471-452c-b437-d9dd8524be03.png">
+
+_after hovering over the highlighted text_
+
 ## Contributions
 
 - Thanks to [MelchiorBV](https://discordapp.com/users/810537814693249034) for the [heads-up](https://discord.com/channels/686053708261228577/744933215063638183/1036351441390018601) on using `tp.file.selection`!
