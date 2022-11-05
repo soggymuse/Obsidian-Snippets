@@ -1,0 +1,75 @@
+/*************************************************************
+Labelled Highlighters (Hover Version)
+by soggymuse https://github.com/soggymuse/Obsidian-Snippets/highlighters-hover.css
+*************************************************************/
+
+.markdown-rendered mark, /*read mode*/
+.cm-s-obsidian span.cm-html-embed mark /*live-preview*/ { 
+    font-family: var(--default-font); 
+    font-size: 1em; 
+    color: inherit;
+    background-color: transparent;
+    border-radius: 4px;
+    border-bottom: 3px solid; }
+
+/*Add highlighter's label before highlighted text*/
+.markdown-rendered mark:hover::before,
+.cm-s-obsidian span.cm-html-embed mark:hover::before{ 
+    padding: 0 5px; 
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: var(--em-font); }
+
+/*Red highlighter (edit)*/
+.markdown-rendered mark.red,
+.cm-s-obsidian span.cm-html-embed mark.red { border-bottom-color: #7D3B56; }
+
+.markdown-rendered mark.red:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.red::before {
+    content: "To edit:"; 
+    color: #7D3B56; }
+
+/*Pink highlighter (spell check)*/
+.markdown-rendered mark.pink,
+.cm-s-obsidian span.cm-html-embed mark.pink { border-bottom-color: #9379A0; }
+
+.markdown-rendered mark.pink:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.pink::before {
+    color: #9379A0;
+    content: "Check spelling:"; }
+
+/*Green highlighter (undecided)*/
+.markdown-rendered mark.green,
+.cm-s-obsidian span.cm-html-embed mark.green { border-bottom-color: #79967F; }
+
+.markdown-rendered mark.green:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.green {
+    content: "Worldbuilding:"; 
+    color: #79967F; }
+
+/*Yellow highligher (undecided)*/
+.markdown-rendered mark.yellow,
+.cm-s-obsidian span.cm-html-embed mark.yellow { border-bottom-color: #F5B342; }
+
+.markdown-rendered mark.yellow:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.yellow:hover::before {
+    content: "Plot:"; 
+    color: #F5B342; }
+
+/*Blue highlighter (undecided)*/
+.markdown-rendered mark.blue,
+.cm-s-obsidian span.cm-html-embed mark.blue { border-bottom-color: #889FC3; }
+
+.markdown-rendered mark.blue:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.blue:hover::before {
+    content: "Character:"; 
+    color: #889FC3; }
+
+/*Brown highlighter (undecided)*/
+.markdown-rendered mark.brown,
+.cm-s-obsidian span.cm-html-embed mark.brown { border-bottom-color: #73707B; }
+
+.markdown-rendered mark.brown:hover::before,
+.cm-s-obsidian span.cm-html-embed mark.brown:hover::before {
+    content: "Undecided:"; 
+    color: #73707B; }
