@@ -73,3 +73,4 @@ If six highlighter colours aren't enough, you can add more!
 ## Contributions
 
 - Thanks to [MelchiorBV](https://discordapp.com/users/810537814693249034) for the [heads-up](https://discord.com/channels/686053708261228577/744933215063638183/1036351441390018601) on using `tp.file.selection`!
+- Thanks to [TheTobruk](https://discordapp.com/users/1036215418983026709) for the reminder that live preview requires a different code 😅
